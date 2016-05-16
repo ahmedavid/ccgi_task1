@@ -1,19 +1,16 @@
 {
-  "name": "ccgi_task1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahmedavid/ccgi_task1.git"
-  },
-  "author": "David Dresden",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ahmedavid/ccgi_task1/issues"
-  },
-  "homepage": "https://github.com/ahmedavid/ccgi_task1#readme"
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"express": "4.13.x",
+		"cfenv": "1.0.x"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
 }

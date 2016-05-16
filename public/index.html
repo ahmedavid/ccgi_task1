@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Bears</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Bears</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="about.html">About</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-primary" ng-init="getBooks()">
+        <div class="panel-heading">
+          <h3 class="panel-title">Most Terrifying Bears</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row front">
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <h4>North American Black Bear</h4>
+                <p>Ursus Americanus – colour – black, bluish-black, brown, white (Kermode or Spirit bear). The North American Black Bear is the most common bear in North America ranging from the State of Florida north, into Canada and north to Alaska. The black and brown colour phase of the black bear is common. The white colour phase is more rare occuring in north western British Columbia, Canada. The black bear is omnivorous. Their diet is mostly vegetable matter. Males reach full size at about 8 years of age. Females mate and produce cubs at 5 to 7 years of age, 8 years and older in the boreal forest regions(Ontario). Males weigh up to 280kg(600 pounds), occasionally much more. Black bears live up to 25 years in the wild. Older bears have been documented, however the majority of bears never reach old age due to human activity (hunting). Credits-two white(Kermode)black bear photos-Charlie Russell, text, photos-Mike McIntosh</p>
+              </div>
+              <div class="col-md-6">
+                <img src="http://bearwithus.org/wp-content/uploads/2012/09/bear-brown-guy-June-2007.jpg" class="thumbnail lazy">
+              </div>
+            </div>
+
+
+
+            <div class="col-md-12">
+
+              <div class="col-md-6">
+                <img src="http://bearwithus.org/wp-content/uploads/2012/09/Charlie-Russell-photo-d.jpg" class="thumbnail lazy">
+              </div>
+              <div class="col-md-6">
+                <h4>Brown Bear</h4>
+                <p>Ursus Arctos – Several subspecies. The Brown Bear can be found in Alaska, western Canada,and parts of Washington, Montana and Wyoming. Small individual populations are scattered throughout parts of Europe and Asia. Russia has a healthy population of brown bears currently. Brown bears range in colour from almost black, brown to very light brown or blonde. Size varies greatly depending on geographic location and general food availability. The largest bears, the “Big Browns” exist along the coast of Alaska and Russia growing to very large sizes rivaling that of the Polar Bear. The interior bears of the North American Rocky Mountains (Grizzly Bear) and the mountains of Europe tend to be much smaller. The really big bears (1500pounds/700kg and bigger) are now very rare.Credit -text- Mike McIntosh, photographs of brown bears – Charlie Russell-www.cloudline.ca .</p>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <h4>Polar Bear</h4>
+                <p>Ursus Maritimus Polar bears are among the largest bears in the world. Adult males may reach 800 kilograms (kg) or 1760 pounds (lbs). In Ontario, the largest male bear recorded from “live capture” research studies weighed 654 kg (1439 lbs). The average weight of male polar bears in Ontario is about 500 kg (1100 lbs). Adult female bears are smaller and average around 300 kg (660 lbs); their peak weights do not usually exceed 400 kg (880 lbs). Credit -text- Ontario Ministry of Natural Resources. polar bear photographs – Roy de Haas/Agami.nl</p>
+              </div>
+              <div class="col-md-6">
+                <img src="http://bearwithus.org/wp-content/uploads/2012/09/Polar-bears-b-Roy-deHaas.jpg" class="thumbnail lazy">
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <img src="http://bearwithus.org/wp-content/uploads/2012/09/Asiatic-Black-bear-e-Wild.jpg" class="thumbnail lazy">
+              </div>
+              <div class="col-md-6">
+                <h4>Asiatic black bear</h4>
+                <p>Himalayan black bear, moon bear –Ursus thibetanus Asiatic black bears have long black fur with a distinct white patch on the chest that is often crescent-shaped. The fur around the shoulders and throat is particularly long, and their ears are relatively large. Asiatic black bears live in eastern Asia, including Afghanistan, Bangladesh, Bhutan, Cambodia, China, India, Islamic Republic of Iran, Japan, Democratic People’s Republic of Korea, Lao People’s Democratic Republic, Malaysia, Mongolia, Myanmar, Nepal, Pakistan, Russian Federation, Taiwan and Vietnam. Asiatic black bears are more carnivorous than their American counterparts, although only a small part of their diet is made up of meat. This includes small mammals, birds, fish, molluscs and carcasses. They also feed on grasses, fruits, berries, seeds, insects and honey. In autumn they fatten up for the winter by feeding on nuts. In northern climates they hibernate. In southern climates they do not hibernate. Credit -text- BBC Science and Nature. Photos courtesy of Wildlife S.O.S. </p>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="col-md-6">
+                <h4>Andean Bear</h4>
+                <p>Tremarctos ornatus Most scientists refer to spectacled bears as Andean bears (they are found only in the Andes mountains in South America). The bears are an endangered species, listed as Vulnerable, and it is illegal to kill them. The Andean bear is the last remaining short-faced bear (subfamily Tremarctinae) and the closest living relative to the Florida spectacled bear and short-faced bears of the Middle Pleistocene to Late Pleistocene age. Spectacled bears are the only surviving species of bear native to South America, and the only surviving member of the subfamily Tremarctinae. The Spectacled Bear is technically the largest land carnivore on that continent, although as little as 5% of its diet is composed of meat. South America’s largest obligate carnivore is the jaguar. Among South America’s extant, native land animals, only the Baird’s and South American Tapirs are heavier than this species. The Spectacled bear is a mid-sized species of bear. Overall its fur is blackish in color, though bears may vary from jet black to dark brown and to even a reddish hue. The species typically has distinctive beige-coloured marking across its face and upper chest, though not all Spectacled bears have “spectacle” markings. The pattern and extent of pale markings are slightly different on each individual bear and bears can be readily distinguished by this. Males are a third larger than females in dimensions and sometimes twice their weight. Males can weigh 100 – 200 kilograms (220 – 440 lb), and females 35 –82 kilograms (77 – 181 lb). Length can range from 120 to 200 cm (47–79 in), with a tail length of a mere 7 cm (2.8 in), and shoulder height from 60 to 90 cm (24–30 in). </p>
+              </div>
+              <div class="col-md-6">
+                <img src="http://bearwithus.org/wp-content/uploads/2012/09/Andean-bear.jpg" class="thumbnail lazy">
+              </div>
+            </div>
+            <div class="col-md-12">
+
+
+              <div class="col-md-12">
+                <div class="col-md-6">
+                  <img src="http://bearwithus.org/wp-content/uploads/2012/09/giant-panda-cfreegiantpand.jpg" class="thumbnail lazy">
+                </div>
+                <div class="col-md-6">
+                  <h4>Panda Bear</h4>
+                  <p>Ailuropoda melanoleuca Length: 5 ft (1.5m) (with a 6 inch(.2m)tail). Weight: Around 250 lbs (113 kg) (males); around 220 lbs (100 kg) (females). The giant panda is a rare, endangered and elusive bear. Science used to believe that the giant panda was a member of the raccoon family. With DNA analyses science proved itself wrong. The giant panda and the red panda are not related. Giant pandas are famous for their love of bamboo, a diet so nutritionally poor that the pandas have to consume up to 20kg each day. The extra digit on the panda’s hand helps them to tear the bamboo and their gut is covered with a thick layer of mucus to protect against splinters. Habitat loss is the greatest cause of the giant panda’s decline, and today their range is restricted to six separate mountain ranges in western China. A giant panda is born pink, hairless, blind and 1/900th the size of its mother. Unlike other bears, giant pandas do not hibernate. In the winter, they move to lower elevations to keep warm, while traveling to higher elevations in the summer to stay cool. They can be active at any time of the day or night. </p>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- /.container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.6.7/jquery.lazy.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
